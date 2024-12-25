@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body { 
+        width: 300px; 
+        padding: 10px; 
+        font-family: Arial, sans-serif; 
+      }
+      input, button { 
+        width: 100%; 
+        margin: 5px 0; 
+        padding: 5px; 
+      }
+    </style>
+  </head>
+  <body>
+    <h2>网站匹配设置</h2>
+    <input type="text" id="websiteInput" placeholder="输入网站匹配规则 (如: *://github.com/*)">
+    <button id="saveButton">保存规则</button>
+    <div id="savedWebsites"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
